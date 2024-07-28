@@ -14,7 +14,7 @@ const Explorecommunitiy = () => {
     <div className="mt-6 p-4 px-16">
       <h2 className="text-3xl font-semibold mb-8 text-pink-900">Explore Communities</h2>
       <div className="flex space-x-4">
-        <div className="bg-pink-900 p-4 rounded-lg  w-1/2 border-2 " data-aos="fade-up">
+        <div className="bg-pink-900 p-8 rounded-lg  w-1/2 border-2 " data-aos="fade-up">
           <h3 className="text-lg font-semibold mb-2 text-gray-100">Business</h3>
           <p className="text-sm text-gray-100">This is the business community where we share ideas about business creation</p>
           <div className="flex mt-2 space-x-2">
@@ -26,7 +26,7 @@ const Explorecommunitiy = () => {
           </div>
           <Link to ="/Dashboard" className="mt-2 bg-gray-100 text-pink-900 py-2 px-4 rounded-full ml-60">Join here</Link>
         </div>
-        <div className="bg-white p-4 rounded-lg  w-1/2 border-2 border-pink-800" data-aos="fade-up">
+        <div className="bg-white p-8 rounded-lg  w-1/2 border-2 border-pink-800" data-aos="fade-up">
           <h3 className="text-lg font-semibold mb-2">IT</h3>
           <p className="text-sm">This is the business community where we share ideas about business creation</p>
           <div className="flex mt-2 space-x-2">
@@ -38,7 +38,7 @@ const Explorecommunitiy = () => {
           </div>
           <button className="mt-2 bg-pink-900 text-white  py-2 px-4 rounded-full ml-60">Join here</button>
         </div>
-        <div className="bg-pink-900 p-4 rounded-lg  w-1/2 border-2  " data-aos="fade-up">
+        <div className="bg-pink-900 p-8 rounded-lg  w-1/2 border-2  " data-aos="fade-up">
           <h3 className="text-lg font-semibold mb-2 text-gray-100">Business</h3>
           <p className="text-sm text-gray-100">This is the business community where we share ideas about business creation</p>
           <div className="flex mt-2 space-x-2">
@@ -50,7 +50,7 @@ const Explorecommunitiy = () => {
           </div>
           <button className="mt-2 bg-gray-100 text-pink-900 py-2 px-4 rounded-full ml-60">Join here</button>
         </div>
-        <div className="bg-white p-4 rounded-lg w-1/2 border-2 border-pink-800" data-aos="fade-up">
+        <div className="bg-white p-8 rounded-lg w-1/2 border-2 border-pink-800" data-aos="fade-up">
           <h3 className="text-lg font-semibold mb-2">IT</h3>
           <p className="text-sm">This is the business community where we share ideas about business creation</p>
           <div className="flex mt-2 space-x-2">

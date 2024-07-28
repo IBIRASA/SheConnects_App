@@ -1,32 +1,37 @@
 // src/components/Navbar.js
 import React from 'react';
 import Logo from '../assets/sheconnectss.png';
-import about from '../assets/aboutus.png'
+import about from '../assets/aboutus.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faBell } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
-const Community_top = () => {
+
+const CommunityTop = ({ username }) => {
   return (
-    <nav className="bg-pink-800 flex justify-between items-center p-8  shadow-md">
+    <nav className="bg-pink-800 flex justify-between items-center p-1 px-12 shadow-md relative">
       <div className="flex items-center">
-      <img
-        className="absolute w-28 h-28 object-cover"
-        src={Logo}
-        alt="Landing Background"
-      />
-      
+      <Link to="/Login" className="p-2">
+        <img
+          className="w-20 h-20 object-cover"
+          src={Logo}
+          alt="SheConnects Logo"
+        />
+        </Link>
       </div>
-      <div className="flex items-center">
-        <button className="mr-4">
-        <div className="flex items-center mb-4">
-            <FontAwesomeIcon icon={faBell} className="text-gray-200 w-5 h-5 mr-8 mt-4" />
-          </div>
+      <div className="flex items-center space-x-4">
+        <button className="p-2">
+          <FontAwesomeIcon icon={faBell} className="text-gray-200 w-5 h-5" />
         </button>
-       <Link to="/Profiledit"><FontAwesomeIcon icon={faAngleDown} className="text-gray-200 w-5 h-5 mr-4 mt-4" /></Link>
-        <img src={about} alt="Profile" className="h-12 w-12 rounded-full shadow-md bg-white" />
+      
+        <div className="flex items-center space-x-1">
+          <span className="text-gray-200 font-bold">{username}</span>
+        </div>
+        <Link to="/Profiledit" className="p-2">
+          <FontAwesomeIcon icon={faAngleDown} className="text-gray-200 w-5 h-5" />
+        </Link>
       </div>
     </nav>
   );
 };
 
-export default Community_top;
+export default CommunityTop;
