@@ -94,7 +94,7 @@ const LandingPage = () => {
         <span className="mx-2 h-6 w-0.5 bg-pink-800 mb-8"></span>
         <span className="font-normal text-base mb-8">Empower Women</span>
       </div>
-      <Link to="/MainCommunity" className="bg-pink-700 text-white rounded-lg py-4 px-6 border-2 border-gray-100" data-aos="fade-top">
+      <Link to="/Login" className="bg-pink-700 text-white rounded-lg py-4 px-6 border-2 border-gray-100" data-aos="fade-top">
         Join a community
       </Link>
     </div>

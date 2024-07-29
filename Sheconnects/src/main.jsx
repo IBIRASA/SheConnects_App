@@ -19,14 +19,14 @@ import {
 
 const Root = () => {
   const username = localStorage.getItem('username') || 'Guest';
-  console.log("Username:", username); // Debugging line
+  console.log("Username:", username); 
 
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Register />} />
+        <Route path="/" element={<App />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/App" element={<App />} />
+        <Route path="/Register" element={<Register />} />
         <Route path="/MainCommunity" element={<MainCommunity />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Profiledit" element={<Profiledit />} />
