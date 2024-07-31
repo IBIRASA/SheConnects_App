@@ -3,18 +3,18 @@ import { FaHome, FaUserFriends, FaBriefcase, FaComments, FaSignOutAlt } from 're
 import Logo from '../assets/sheconnectss.png';
 import { Link } from 'react-router-dom';
 
-const Sidebar = () => {
-  const [selected, setSelected] = useState('Community Joined');
+const Sidebar = ({ setActiveContent }) => {
+  const [selected, setSelected] = useState('General');
 
   const handleClick = (item) => {
     setSelected(item);
+    setActiveContent(item);
   };
 
   const menuItems = [
-    { name: 'Community Joined', icon: <FaHome size={24} /> },
+    { name: 'General', icon: <FaHome size={24} /> },
     { name: 'Business', icon: <FaUserFriends size={24} /> },
     { name: 'IT', icon: <FaBriefcase size={24} /> },
-    { name: 'Channels', icon: <FaComments size={24} /> },
     { name: 'Direct Message', icon: <FaComments size={24} /> },
   ];
 
@@ -22,7 +22,7 @@ const Sidebar = () => {
     <div className="bg-pink-900 text-white w-72 p-4 flex flex-col h-full shadow-lg">
       <div className="flex items-center justify-center mb-12 mt-12">
         <img
-          className="w-36 h-36 object-cover "
+          className="w-36 h-36 object-cover"
           src={Logo}
           alt="Logo"
         />
