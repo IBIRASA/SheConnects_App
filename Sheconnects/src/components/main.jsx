@@ -5,7 +5,7 @@ import Hero from "./hero"
 const main = () => {
   return (
     <div>
-<Hero/> 
+      <Hero/> 
     </div>
   )
 }

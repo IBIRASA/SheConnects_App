@@ -1,6 +1,5 @@
-// src/components/Channels.js
-import React from 'react';
 
+import React from 'react';
 const Channels = () => {
   return (
     <div className="p-6">

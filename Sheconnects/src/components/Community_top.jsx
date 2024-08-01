@@ -1,7 +1,6 @@
 // src/components/Navbar.js
 import React from 'react';
 import Logo from '../assets/sheconnectss.png';
-import about from '../assets/aboutus.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faBell } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
