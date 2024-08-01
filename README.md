@@ -33,4 +33,4 @@ Responsive Design: The app is designed to be fully responsive, ensuring a seamle
 # Important Links:
 -----------------------------------------------------------
 
-Figma links :  https://www.figma.com/design/mTSY6DTJpj2ZFha6yuqCQb/Sheconnects-app?node-id=0-1&t=BTahKoc8b64WmTIf-1
+Figma link :  https://www.figma.com/design/mTSY6DTJpj2ZFha6yuqCQb/Sheconnects-app?node-id=0-1&t=BTahKoc8b64WmTIf-1
